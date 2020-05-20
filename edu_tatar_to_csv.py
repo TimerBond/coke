@@ -5,8 +5,8 @@ import pandas as pd
 
 
 def main():
-    login = '4702014096'
-    password = 'waFB3rT$'
+    login = input('Login: ')
+    password = input('Password: ')
     auth(login, password)
 
 
